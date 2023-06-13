@@ -12,6 +12,10 @@ Navigate to data.js and take a look at the data structure
 
 First, import the reviews data into your project. This data should be an array of objects, with each object representing a person's review and containing properties such as name, job, image URL, and text.
 
+Adding the following line to the data.js files, executes the instruction. 
+
+import people from './data';
+
 #### Setup State Value (Index)
 
 Then, set up a state value that controls which person from the list is displayed.
